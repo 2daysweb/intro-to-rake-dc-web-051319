@@ -10,7 +10,7 @@ task :environment do
 end
 
 desc 'seed database with dummy data from a seed file'
-  task:seed do 
+  task:seeds do 
   require_relative './db/seeds'
   ruby seeds.rb 
 end 
