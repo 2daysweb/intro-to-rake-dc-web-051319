@@ -28,6 +28,6 @@ end
 
 desc 'add a console to Rakefile'
 task :console do
-  puts "console"
+  console
 end 
 end 
