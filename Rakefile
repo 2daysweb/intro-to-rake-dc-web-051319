@@ -31,4 +31,3 @@ desc 'add a console to Rakefile'
 task :console do
   console
 end 
-end 
