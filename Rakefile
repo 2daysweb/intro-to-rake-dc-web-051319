@@ -25,6 +25,7 @@ desc "outputs hola from rake to the terminal"
 task :hola do 
   puts "hola de Rake!"
 end
+end
 
 desc 'add a console to Rakefile'
 task :console do
