@@ -13,7 +13,7 @@ desc 'seed database with dummy data from a seed file'
   task :seed do 
   require_relative './db/seeds'
   require_relative './lib/student.rb'
-  ruby seeds.rb 
+  
 end 
 end
 
